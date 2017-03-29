@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA04DEFC1E8B73C40015C4DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA04DEFB1E8B73C40015C4DB /* AppDelegate.swift */; };
+		FA04DEFE1E8B73C40015C4DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA04DEFD1E8B73C40015C4DB /* ViewController.swift */; };
+		FA04DF011E8B73C40015C4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA04DEFF1E8B73C40015C4DB /* Main.storyboard */; };
+		FA04DF031E8B73C40015C4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA04DF021E8B73C40015C4DB /* Assets.xcassets */; };
+		FA04DF061E8B73C40015C4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA04DF041E8B73C40015C4DB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA04DEF81E8B73C40015C4DB /* dynamic-uibutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dynamic-uibutton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA04DEFB1E8B73C40015C4DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA04DEFD1E8B73C40015C4DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA04DF001E8B73C40015C4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA04DF021E8B73C40015C4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA04DF051E8B73C40015C4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA04DF071E8B73C40015C4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA04DEF51E8B73C40015C4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA04DEEF1E8B73C40015C4DB = {
+			isa = PBXGroup;
+			children = (
+				FA04DEFA1E8B73C40015C4DB /* dynamic-uibutton */,
+				FA04DEF91E8B73C40015C4DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA04DEF91E8B73C40015C4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA04DEF81E8B73C40015C4DB /* dynamic-uibutton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA04DEFA1E8B73C40015C4DB /* dynamic-uibutton */ = {
+			isa = PBXGroup;
+			children = (
+				FA04DEFB1E8B73C40015C4DB /* AppDelegate.swift */,
+				FA04DEFD1E8B73C40015C4DB /* ViewController.swift */,
+				FA04DEFF1E8B73C40015C4DB /* Main.storyboard */,
+				FA04DF021E8B73C40015C4DB /* Assets.xcassets */,
+				FA04DF041E8B73C40015C4DB /* LaunchScreen.storyboard */,
+				FA04DF071E8B73C40015C4DB /* Info.plist */,
+			);
+			path = "dynamic-uibutton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA04DEF71E8B73C40015C4DB /* dynamic-uibutton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA04DF0A1E8B73C40015C4DB /* Build configuration list for PBXNativeTarget "dynamic-uibutton" */;
+			buildPhases = (
+				FA04DEF41E8B73C40015C4DB /* Sources */,
+				FA04DEF51E8B73C40015C4DB /* Frameworks */,
+				FA04DEF61E8B73C40015C4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dynamic-uibutton";
+			productName = "dynamic-uibutton";
+			productReference = FA04DEF81E8B73C40015C4DB /* dynamic-uibutton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA04DEF01E8B73C40015C4DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hw;
+				TargetAttributes = {
+					FA04DEF71E8B73C40015C4DB = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8B4A3428Q6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA04DEF31E8B73C40015C4DB /* Build configuration list for PBXProject "dynamic-uibutton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA04DEEF1E8B73C40015C4DB;
+			productRefGroup = FA04DEF91E8B73C40015C4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA04DEF71E8B73C40015C4DB /* dynamic-uibutton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA04DEF61E8B73C40015C4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA04DF061E8B73C40015C4DB /* LaunchScreen.storyboard in Resources */,
+				FA04DF031E8B73C40015C4DB /* Assets.xcassets in Resources */,
+				FA04DF011E8B73C40015C4DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA04DEF41E8B73C40015C4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA04DEFE1E8B73C40015C4DB /* ViewController.swift in Sources */,
+				FA04DEFC1E8B73C40015C4DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA04DEFF1E8B73C40015C4DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA04DF001E8B73C40015C4DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA04DF041E8B73C40015C4DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA04DF051E8B73C40015C4DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA04DF081E8B73C40015C4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA04DF091E8B73C40015C4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA04DF0B1E8B73C40015C4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4A3428Q6;
+				INFOPLIST_FILE = "dynamic-uibutton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hw.dynamic-uibutton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA04DF0C1E8B73C40015C4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B4A3428Q6;
+				INFOPLIST_FILE = "dynamic-uibutton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hw.dynamic-uibutton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA04DEF31E8B73C40015C4DB /* Build configuration list for PBXProject "dynamic-uibutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA04DF081E8B73C40015C4DB /* Debug */,
+				FA04DF091E8B73C40015C4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA04DF0A1E8B73C40015C4DB /* Build configuration list for PBXNativeTarget "dynamic-uibutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA04DF0B1E8B73C40015C4DB /* Debug */,
+				FA04DF0C1E8B73C40015C4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA04DEF01E8B73C40015C4DB /* Project object */;
+}
